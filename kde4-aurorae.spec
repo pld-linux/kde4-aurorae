@@ -17,10 +17,14 @@ URL:		http://kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158
 # leave only required ones
 BuildRequires:	QtCore-devel >= %{qt_ver}
 BuildRequires:	QtGui-devel >= %{qt_ver}
+BuildRequires:	QtNetwork-devel
 BuildRequires:	QtSvg-devel >= %{qt_ver}
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.6.1-2
 BuildRequires:	kde4-kdelibs-devel >= 4.2.91
+BuildRequires:	kde4-kdebase-workspace-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.293
 BuildRequires:	strigi-devel >= 0.5.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
