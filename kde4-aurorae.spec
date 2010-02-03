@@ -2,7 +2,7 @@
 # Conditional build:
 #
 %define		orgname		aurorae
-%define		qt_ver		4.5.2
+%define		qtver		4.5.2
 
 Summary:	Aurorae Theme Engine
 Summary(pl.UTF-8):	Aurore Theme Engine
@@ -15,10 +15,10 @@ Source0:	http://kde-look.org/CONTENT/content-files/107158-%{orgname}-%{version}.
 # Source0-md5:	eb297bd1b97baae32c1a30b73b2afd90
 URL:		http://kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158
 # leave only required ones
-BuildRequires:	QtCore-devel >= %{qt_ver}
-BuildRequires:	QtGui-devel >= %{qt_ver}
+BuildRequires:	QtCore-devel >= %{qtver}
+BuildRequires:	QtGui-devel >= %{qtver}
 BuildRequires:	QtNetwork-devel
-BuildRequires:	QtSvg-devel >= %{qt_ver}
+BuildRequires:	QtSvg-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.6.1-2
 BuildRequires:	kde4-kdelibs-devel >= 4.2.91
