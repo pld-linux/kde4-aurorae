@@ -3,7 +3,7 @@
 #
 %define		orgname		aurorae
 %define		kdever		4.4.4
-
+%define		kdeworkspacever	4.11.0
 Summary:	Aurorae Theme Engine
 Summary(pl.UTF-8):	Aurore Theme Engine
 Name:		kde4-aurorae
@@ -18,7 +18,7 @@ URL:		http://kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
-BuildRequires:	kde4-kdebase-workspace-devel >= %{kdever}
+BuildRequires:	kde4-kdebase-workspace-devel >= %{kdeworkspacever}
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.293
